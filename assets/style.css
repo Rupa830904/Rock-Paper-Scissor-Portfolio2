@@ -7,12 +7,12 @@ body {
     background-color: bisque;
 }
 
-header{
+.score{
     background: rgb(151, 228, 182);
     padding: 20px;
     text-align: center;
     width: 180px;
-    height: 10px;
+    height: 20px;
     margin: 60px auto;
 }
 
@@ -23,13 +23,13 @@ h1 {
     font-family: Asap , sans-serif;
     
     }
-
-header > h1 {
+.score-board-level {
         color: black;
-        text-align: center;
+        
         font-weight: bold;
         font-family: Asap , sans-serif;
-        position:absolute;
+        position: absolute;
+        text-align: center;
         }
 
 .heading {
@@ -91,7 +91,8 @@ header > h1 {
 }
 .result {
         font-size: 40px; 
-        color: rgb(9, 120, 63);
+        color: rgb(186, 8, 8);
+        text-align: center;
     }
     
 .result > p {
@@ -120,6 +121,7 @@ header > h1 {
 #paper-image{
     width: 45px;
     height: 45px;
+
 }
 
 #r {
