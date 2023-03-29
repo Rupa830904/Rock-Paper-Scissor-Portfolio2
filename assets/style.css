@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+header{
+    background: rgb(151, 228, 182);
+    padding: 20px;
+    text-align: center;
+    width: 180px;
+    height: 10px;
+    margin: 60px auto;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: Asap , sans-serif;
+    
+    }
+
+header > h1 {
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        font-family: Asap , sans-serif;
+        position:absolute;
+        }
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+   
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+    
+.score-board {
+        margin: 20px auto;
+        border: 3px solid #e62739;
+        border-radius: 8px;
+        text-align: center;
+        width: 200px;
+        color: white;
+        font-size: 46px;
+        padding: 15px 20px;  
+        position: relative;
+    }
+
+.score-board-label {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+    
+.badge {
+        background: #efc0b8;
+        color: rgb(114, 202, 38);
+        font-size: 14px;
+        padding: 2px 10px;
+    }
+    
+#user-side {
+        color:#200c80;
+        position: absolute;
+        top: 30px;
+        left: -46px;
+    }
+    
+#computer-side {
+        color:#200c80;
+        position: absolute;
+        top: 30px;
+        right: -53px;
+    }
+#user-score {
+    color:black
+}
+
+#computer-score {
+    color:black
+}
+.result {
+        font-size: 40px; 
+        color: rgb(9, 120, 63);
+    }
+    
+.result > p {
+        text-align: center;
+        font-weight: bold;
+    }
+    
+.choices {
+        margin-top: 50px 0;
+        text-align: center;
+       
+    }
+.choice {
+        border: 4px solid white;
+        border-radius: 20%;
+        margin: 0px 20px;
+        padding: 10px;
+        display: inline-block;
+        transition: all 0.3s ease;
+        
+    }
+#p {
+    width: 50px;
+    height: 50px;
+}
+#paper-image{
+    width: 45px;
+    height: 45px;
+}
+
+#r {
+    width: 50px;
+    height: 50px;
+}
+#rock-image{
+    width: 45px;
+    height: 45px;
+}
+
+#s {
+    width: 50px;
+    height: 50px;
+}
+#scissor-image{
+    width: 45px;
+    height: 45px;
+}
+
+
+    
+    
+.choice:hover {
+        cursor: pointer;
+        background: rgba(36, 39, 46, 0.534);
+    }
+    
+#action-message {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    
+    

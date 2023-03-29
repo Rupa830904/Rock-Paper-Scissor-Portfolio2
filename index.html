@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<meta content="IE=edge" http-equiv="X-UA-Compatible">
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://www.flaticon.com/free-icons/rock-paper-scissors"
+     title="rock paper scissors icons">
+		
+		<link src="https://kit.fontawesome.com/807aa8c83d.js">
+		<link type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js">
+		
+			
+		<link rel="stylesheet" href="assets/style.css">
+		<title>Rock Paper Scissors</title>
+	</head>
+  <body>
+    <h1 class="heading">
+    
+      <img class="logo" src="images/logo.png" alt="logo">Rock Paper Scissors
+    </h1>
+    <header>
+       <h1 class="score-board-label">Scoreboard</h1>
+	  </header>
+		<div class="score-board">
+		  <div id="user-side" class="badge">user</div>
+		  <div id="computer-side" class="badge">comp</div>
+		  <span id="user-score">0</span> - <span id="computer-score">0</span>
+		</div>
+    <div class="resultBox">
+        <h1>Choose your move from below</h1>
+            <div class="choices">
+                <div class="choice" id="r">
+                  <img id="rock-image" src="images/rock1.jpg" alt="">
+                </div>
+                <div class="choice" id="p">
+                    <img id="paper-image" src="images/paper1.jpg" alt="">
+                </div>
+                <div class="choice" id="s">
+                    <img id="scissor-image" src="images/scissor1.png" alt="">
+                </div>
+            </div>
+        <div class="result"></div>
+    </div>
+    <script src="assets/game.js" charset="UTF-8"></script>
+  </body>
+</html>
