@@ -17,7 +17,7 @@ function getComputerChoice() {
 function win (user,computer) {
     userScore++;
     userScore_span.innerHTML = userScore;
-    result_div.innerHTML = "Computer Choice: " + computer + ". You win!!";
+    result_div.innerHTML = "Computer Choose: " + computer + ". You win!!";
 }
 function loose (user,computer) {
     computerScore++;
