@@ -9,7 +9,7 @@ let paper_div = document.getElementById("p");
 let scissors_div = document.getElementById("s");
 let lizard_div = document.getElementById("l");
 let spock_div = document.getElementById("o");
-let reset_div = document.getElementById("ri")
+let reset_div = document.getElementById("ri");
 
 function getComputerChoice() {
     const choices = ['rock', 'paper', 'scissor','lizard','spock'];
