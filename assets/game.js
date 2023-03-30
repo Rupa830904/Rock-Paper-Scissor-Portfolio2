@@ -17,18 +17,18 @@ function getComputerChoice() {
     return choices [randomNumber];
 }
 
-function win (user,computer) {
+function win (computer) {
     userScore++;
     userScore_span.innerHTML = userScore;
     result_div.innerHTML = "Computer Choose: " + computer + ". You win!!";
 }
-function loose (user,computer) {
+function loose (computer) {
     computerScore++;
     computerScore_span.innerHTML = computerScore;
     result_div.innerHTML = "Computer Choose: " + computer + ". You loose!!";
 }
 
-function draw (user,computer) {
+function draw (computer) {
     result_div.innerHTML = "Computer also Choose: " + computer + ". It's a draw!!";
 }
 
@@ -37,6 +37,7 @@ function reset_score() {
     computerScore = 0;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
+    result_div.innerHTML = "";
 }
 
 function game(userChoice) {
@@ -52,7 +53,7 @@ function game(userChoice) {
        case "rlizard":
        case "pspock":
        case "slizard":
-        win(userChoice,computerChoice);
+        win(computerChoice);
         break;
        case "rpaper":
        case "pscissor":
@@ -64,14 +65,14 @@ function game(userChoice) {
        case "rspock":
        case "plizard":
        case "sspock":
-        loose(userChoice,computerChoice);
+        loose(computerChoice);
         break;
        case "rrock":
        case "ppaper":
        case "sscissor":
        case "llizard":
        case "ospock":
-        draw(userChoice,computerChoice);
+        draw(computerChoice);
         break;
     }
 };
