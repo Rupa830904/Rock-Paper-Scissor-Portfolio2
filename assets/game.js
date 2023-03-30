@@ -7,9 +7,12 @@ let result_div = document.querySelector(".result");
 let rock_div = document.getElementById("r");
 let paper_div = document.getElementById("p");
 let scissors_div = document.getElementById("s");
+let lizard_div = document.getElementById("l");
+let spock_div = document.getElementById("o");
+let reset_div = document.getElementById("ri")
 
 function getComputerChoice() {
-    const choices = ['rock', 'paper', 'scissor'];
+    const choices = ['rock', 'paper', 'scissor','lizard','spock'];
     const randomNumber = Math.floor(Math.random() * 3);
     return choices [randomNumber];
 }
@@ -29,22 +32,45 @@ function draw (user,computer) {
     result_div.innerHTML = "Computer also Choose: " + computer + ". It's a draw!!";
 }
 
+function reset_score() {
+    userScore = 0;
+    computerScore = 0;
+    userScore_span.innerHTML = userScore;
+    computerScore_span.innerHTML = computerScore;
+}
+
 function game(userChoice) {
     let computerChoice = getComputerChoice();
     switch (userChoice + computerChoice){
        case "rscissor":
        case "prock":
        case "spaper":
+       case "lpaper":
+       case "lspock":
+       case "oscissor":
+       case "orock":
+       case "rlizard":
+       case "pspock":
+       case "slizard":
         win(userChoice,computerChoice);
         break;
        case "rpaper":
        case "pscissor":
        case "srock":
+       case "lrock":
+       case "lscissor":
+       case "opaper":
+       case "olizard":
+       case "rspock":
+       case "plizard":
+       case "sspock":
         loose(userChoice,computerChoice);
         break;
        case "rrock":
        case "ppaper":
        case "sscissor":
+       case "llizard":
+       case "ospock":
         draw(userChoice,computerChoice);
         break;
     }
@@ -62,7 +88,17 @@ function main() {
     scissors_div.addEventListener('click', function() {
         game("s");
     })
+    lizard_div.addEventListener('click', function() {
+        game("l");
+    })
+    spock_div.addEventListener('click', function() {
+        game("o");
+    })
+    reset_div.addEventListener('click', function() {
+        reset_score();
+    })
+
 }
 
-main ()
+main ();
 
