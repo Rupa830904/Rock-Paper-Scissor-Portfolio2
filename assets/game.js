@@ -13,7 +13,7 @@ let reset_div = document.getElementById("ri")
 
 function getComputerChoice() {
     const choices = ['rock', 'paper', 'scissor','lizard','spock'];
-    const randomNumber = Math.floor(Math.random() * 3);
+    const randomNumber = Math.floor(Math.random() * 5);
     return choices [randomNumber];
 }
 
