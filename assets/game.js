@@ -11,34 +11,46 @@ let lizard_div = document.getElementById("l");
 let spock_div = document.getElementById("o");
 let reset_div = document.getElementById("ri");
 
+//Function to get the computer choice
 function getComputerChoice() {
     const choices = ['rock', 'paper', 'scissor','lizard','spock'];
     const randomNumber = Math.floor(Math.random() * 5);
     return choices [randomNumber];
 }
 
+//Function when User Wins
 function win (computer) {
     userScore++;
     userScore_span.innerHTML = userScore;
     result_div.innerHTML = "Computer Choose: " + computer + ". You win!!";
+    result_div.style.color = "green";
 }
+
+//Function when User Looses
 function loose (computer) {
     computerScore++;
     computerScore_span.innerHTML = computerScore;
     result_div.innerHTML = "Computer Choose: " + computer + ". You loose!!";
+    result_div.style.color = "red";
 }
 
+//Function when It's a draw
 function draw (computer) {
     result_div.innerHTML = "Computer also Choose: " + computer + ". It's a draw!!";
+    result_div.style.color = "black";
 }
 
+//Function when User wants to reset the game
 function reset_score() {
     userScore = 0;
     computerScore = 0;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    result_div.innerHTML = "";
+    result_div.innerHTML = "Try Again!";
+    result_div.style.color = "purple";
 }
+
+//The main game function to decide the winner
 
 function game(userChoice) {
     let computerChoice = getComputerChoice();
@@ -78,7 +90,7 @@ function game(userChoice) {
 };
    
 
-
+//Get the userchoice when user clicks on a game button
 function main() {
     rock_div.addEventListener('click', function() {
         game("r");
