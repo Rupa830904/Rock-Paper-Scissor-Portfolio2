@@ -91,10 +91,9 @@ h1 {
 }
 .result {
         font-size: 40px; 
-        color: rgb(186, 8, 8);
         text-align: center;
     }
-    
+   
 .result > p {
         text-align: center;
         font-weight: bold;
@@ -182,11 +181,7 @@ h1 {
     transition: all 0.3s ease;
     
 }
-
-
-
-    
-    
+  
 .choice:hover {
         cursor: pointer;
         background: rgba(36, 39, 46, 0.534);
@@ -203,5 +198,3 @@ h1 {
         font-size: 20px;
         margin-top: 20px;
     }
-    
-    

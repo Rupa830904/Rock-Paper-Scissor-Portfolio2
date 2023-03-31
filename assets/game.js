@@ -1,8 +1,11 @@
+//initial user score
 let userScore = 0;
+//initial computer score
 let computerScore = 0;
 const userScore_span = document.getElementById ("user-score");
 const computerScore_span = document.getElementById ("computer-score");
 const scoreBoard_div = document.querySelector(".score-board");
+//result output for user
 let result_div = document.querySelector(".result");
 let rock_div = document.getElementById("r");
 let paper_div = document.getElementById("p");
