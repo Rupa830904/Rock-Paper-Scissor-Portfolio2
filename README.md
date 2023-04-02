@@ -26,43 +26,27 @@ Rock Paper Scissor Lizard Spock is a JavaScript game built to allow users to pla
 
 *ScoreBoard*
 
+- A user can see the current score between the user and computer in below screen.
+
+  ![Score board image](docs/Scoreboard.JPG)
+
 *User Choice Buttons*
 
 - A user will have five different buttons to choose the input on his/her turn. The options are as below.Each button has a pictorial representation of the options.
   - Rock
-
-
-  ![Rock image](images/rock1.jpg)
-
-
   - Paper 
-
-
-  ![Paper image](images/paper1.jpg)
-
-
   - Scissors
-
-
-  ![Scissor image](images/scissor2.jpg)
-
-
   - Lizards
-
-
-  ![Lizard1 image](images/Lizard2.webp)
-
-
   - Spock
   
-  ![Spock image](images/spock1.jpg)
+  ![User Buttons image](docs/User-Buttons.JPG)
 
 *Reset Button*
 
 - A user has a choice to click on a reset button to reset the score board and restart the game.
 
  - Reset button
- ![Reset image](images/reset-button.jpg)
+ ![Reset image](docs/Reset.jpg)
 
 
 # Technolgies
