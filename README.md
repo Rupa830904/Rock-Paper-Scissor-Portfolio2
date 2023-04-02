@@ -30,14 +30,31 @@ Rock Paper Scissor Lizard Spock is a JavaScript game built to allow users to pla
 
 - A user will have five different buttons to choose the input on his/her turn. The options are as below.Each button has a pictorial representation of the options.
   - Rock
+
+
   ![Rock image](images/rock1.jpg)
+
+
   - Paper 
+
+
   ![Paper image](images/paper1.jpg)
+
+
   - Scissors
+
+
   ![Scissor image](images/scissor2.jpg)
+
+
   - Lizards
+
+
   ![Lizard1 image](images/Lizard2.webp)
+
+
   - Spock
+  
   ![Spock image](images/spock1.jpg)
 
 *Reset Button*
