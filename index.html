@@ -14,48 +14,79 @@
 		
 			
 		<link rel="stylesheet" href="assets/style.css">
-		<title>Rock Paper Scissors</title>
+    <!-- Page Title -->
+		<title>Rock Paper Scissors Lizard Spock</title>
 	</head>
   <body>
+    <!-- Page header containing site logo -->
     <h1 class="heading">
     
-      <img class="logo" src="images/logo.png" alt="logo">Rock Paper Scissors Lizard Spock
+      <img class="logo" src="images/game-logo.jpg" alt="logo">Rock Paper Scissors Lizard Spock
     </h1>
-    <header>
-      <div class="score">
-       <h1 class="score-board-label">Scoreboard</h1>
-      </div>
-	  </header>
+    
+      <!-- Scoreboard to count points of user and computer -->
+      <div class="score">Scoreboard</div>
+      
+	  
+    <!-- The Scoreboard box content -->
 		<div class="score-board">
 		  <div id="user-side" class="badge">user</div>
 		  <div id="computer-side" class="badge">comp</div>
+      <!-- User and Computer Score -->
 		  <span id="user-score">0</span> - <span id="computer-score">0</span>
 		</div>
     <div class="resultBox">
+    <!-- Main game section with User choice buttons -->
         <h1>Choose your move from below</h1>
             <div class="choices">
                 <div class="choice" id="r">
+                  <!-- rock picture -->
                   <img id="rock-image" src="images/rock1.jpg" alt="">
                 </div>
                 <div class="choice" id="p">
+                    <!-- paper picture -->
                     <img id="paper-image" src="images/paper1.jpg" alt="">
                 </div>
                 <div class="choice" id="s">
+                    <!-- scissor picture -->
                     <img id="scissor-image" src="images/scissor2.jpg" alt="">
                 </div>
                 <div class="choice" id="l">
+                  <!-- lizard picture -->
                   <img id="lizard-image" src="images/Lizard2.webp" alt="">
               </div>
               <div class="choice" id="o">
+                <!-- spock picture -->
                 <img id="spock-image" src="images/spock1.jpg" alt="">
+              </div>
             </div>
-            </div>
+        <!-- Game result for each turn -->
         <div class="result"></div>
     </div>
     <div class="reset-score">
+      <!-- Resest Button -->
       <div class="reset" id="ri">
         <img id="reset-image" src="images/reset-button.jpg" alt="">
       </div>
+    </div>
+      <!-- Trigger/Open The Rules Modal -->
+      
+     
+      
+      <button class="myBtn">Rules</button>
+
+      <!-- The Modal -->
+      <div id="rules" class="modal">
+
+      <!-- Modal content -->
+        <div class="modal-content">
+         <span class="close"></span>
+         <p>Some text in the Modal..</p>
+        </div>
+
+      </div>
+    
+    
     <script src="assets/game.js" charset="UTF-8"></script>
   </body>
 </html>
