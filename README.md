@@ -14,7 +14,7 @@ Rock Paper Scissor Lizard Spock is a JavaScript game built to allow users to pla
     * A 404 page will be implemented and will display if a user navigates to a broken link.
     * The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need  of the browsers back button.
 
-![404](images/404.png)
+![404](docs/404.png)
 
 *Home Page*
 
