@@ -13,6 +13,8 @@ let scissors_div = document.getElementById("s");
 let lizard_div = document.getElementById("l");
 let spock_div = document.getElementById("o");
 let reset_div = document.getElementById("ri");
+let modal_div = document.querySelector(".modal");
+
 
 //Function to get the computer choice
 function getComputerChoice() {
