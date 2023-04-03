@@ -264,6 +264,7 @@ h2 {
     color: black;
 }
 
+/* Modal button and content for game rules */ 
 .myBtn {
     border: 4px solid white;
     border-radius: 10%;
@@ -302,7 +303,7 @@ h2 {
 }
 
 
-
+/* Media query for screen size 320px */ 
 
 @media screen and (max-width: 320px) {
     #p {
