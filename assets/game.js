@@ -1,10 +1,10 @@
+/* jshint esversion: 6 */
 //initial user score
 let userScore = 0;
 //initial computer score
 let computerScore = 0;
 const userScore_span = document.getElementById ("user-score");
 const computerScore_span = document.getElementById ("computer-score");
-const scoreBoard_div = document.querySelector(".score-board");
 //result output for user
 let result_div = document.querySelector(".result");
 let rock_div = document.getElementById("r");
@@ -96,46 +96,46 @@ function game(userChoice) {
         draw(computerChoice);
         break;
     }
-};
+}
    
 
 //Get the userchoice when user clicks on a game button
 function main() {
     rock_div.addEventListener('click', function() {
         game("r");
-    })
+    });
     paper_div.addEventListener('click', function() {
         game("p");
-    })
+    });
     scissors_div.addEventListener('click', function() {
         game("s");
-    })
+    });
     lizard_div.addEventListener('click', function() {
         game("l");
-    })
+    });
     spock_div.addEventListener('click', function() {
         game("o");
-    })
+    });
     reset_div.addEventListener('click', function() {
         reset_score();
-    })
+    });
 
 }
 
 
 btn.onclick = function() {
     modal.style.display = "block";
-  }
+  };
 
   span.onclick = function() {
     modal.style.display = "none";
-  }
+  };
 
   window.onclick = function(event) {
     if (event.target == modal) {
       modal.style.display = "none";
     }
-}
+};
   
 
 main ();
