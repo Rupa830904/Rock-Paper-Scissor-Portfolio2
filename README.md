@@ -18,17 +18,17 @@ Rock Paper Scissor Lizard Spock is a JavaScript game built to allow users to pla
 
 *Home Page*
 
-- Game Instructions
-  - The home page content contains full game instructions so that the user is able to understand how to play the game.
 
-![Home Page Image](images/game-logo.jpg)  
+- The home page demonstrated a user interactive game with rules and instructions as described below.
+
+![Home Page Image](images/The-Main-page.JPG)  
 
 
 *ScoreBoard*
 
 - A user can see the current score between the user and computer in below screen.
 
-  ![Score board image](docs/Scoreboard.JPG)
+  ![Score board image](docs/Sample-scoreboard.JPG)
 
 *User Choice Buttons*
 
@@ -48,6 +48,12 @@ Rock Paper Scissor Lizard Spock is a JavaScript game built to allow users to pla
  - Reset button
  ![Reset image](docs/Reset.JPG)
 
+ *Rules Button*
+
+ - This is a pop-up button. On user click it opens the game instructions and rules. User can click on the 'x' or anywhere outside the pop-up to come back to main page.
+
+  ![Reset image](docs/rules-button.JPG)
+  
  *Result*
 
  - Sample Result
