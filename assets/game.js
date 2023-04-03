@@ -13,7 +13,11 @@ let scissors_div = document.getElementById("s");
 let lizard_div = document.getElementById("l");
 let spock_div = document.getElementById("o");
 let reset_div = document.getElementById("ri");
-let modal_div = document.querySelector(".modal");
+let modal = document.getElementById("myModal");
+let btn = document.getElementById("myBtn");
+let span = document.getElementsByClassName("close")[0];
+
+
 
 
 //Function to get the computer choice
@@ -118,5 +122,27 @@ function main() {
 
 }
 
+
+btn.onclick = function() {
+    modal.style.display = "block";
+  }
+
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+}
+  
+
 main ();
+
+
+
+
+
+
 

@@ -24,16 +24,15 @@
       <img class="logo" src="images/game-logo.jpg" alt="logo">Rock Paper Scissors Lizard Spock
     </h1>
     
-      <!-- Scoreboard to count points of user and computer -->
-      <div class="score">Scoreboard</div>
-      
-	  
-    <!-- The Scoreboard box content -->
+    <!-- Scoreboard to count points of user and computer -->
 		<div class="score-board">
-		  <div id="user-side" class="badge">user</div>
-		  <div id="computer-side" class="badge">comp</div>
-      <!-- User and Computer Score -->
-		  <span id="user-score">0</span> - <span id="computer-score">0</span>
+    <div class="score">
+      <h2>Scoreboard</h2>
+    </div>
+		<div id="user-side" class="badge">user</div>
+		<div id="computer-side" class="badge">comp</div>
+    <!-- User and Computer Score -->
+		<span id="user-score">0</span> - <span id="computer-score">0</span>
 		</div>
     <div class="resultBox">
     <!-- Main game section with User choice buttons -->
@@ -71,17 +70,20 @@
     </div>
       <!-- Trigger/Open The Rules Modal -->
       
-     
+      <div class="game-rules">
       
-      <button class="myBtn">Rules</button>
+      <div id="myBtn" class = "center">
+        <img id="rules-image" src="images/rules1.jpg" alt="">
+      </div>
+      </div>
 
       <!-- The Modal -->
-      <div id="rules" class="modal">
+      <div id="myModal" class="modal">
 
       <!-- Modal content -->
         <div class="modal-content">
          <span class="close"></span>
-         <p>Some text in the Modal..</p>
+         <p>Game Instruction</p>
         </div>
 
       </div>

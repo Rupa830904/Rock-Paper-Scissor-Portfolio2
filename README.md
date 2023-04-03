@@ -46,8 +46,12 @@ Rock Paper Scissor Lizard Spock is a JavaScript game built to allow users to pla
 - A user has a choice to click on a reset button to reset the score board and restart the game.
 
  - Reset button
- ![Reset image](docs/Reset.jpg)
+ ![Reset image](docs/Reset.JPG)
 
+ *Result*
+
+ - Sample Result
+ ![Result image](docs/Reset.JPG)
 
 # Technolgies
 
