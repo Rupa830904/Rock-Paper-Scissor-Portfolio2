@@ -158,7 +158,7 @@ Testing was focused to ensure the following criteria were met:
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
-![Home HTML Validator Results](docs/home_validator-portfolio2.JPG)
+![Home HTML Validator Results](docs/Home-validator-test.JPG)
 
 ![404 HTML Validator Results](docs/404-validation.JPG)
 
