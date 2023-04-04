@@ -99,6 +99,8 @@ Rock Paper Scissor Lizard Spock is a JavaScript game built to allow users to pla
 
    - If the user's and computer's choice are same, it's a draw.
 
+   ![Result Image1](docs/UserSpockComputerSpock.JPG)
+
 # Technolgies
 
 - HTML
