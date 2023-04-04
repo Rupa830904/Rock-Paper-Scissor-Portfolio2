@@ -171,7 +171,7 @@ Testing was focused to ensure the following criteria were met:
 
 - JavaScript
   - No errors were returned when passing through the [JShint validator](https://jshint.com/)
-  - A warning appeared for one function as an unused variable but the function is being used directly as an onkeyup event on the card divs.
+  
 
 ![JavaScript Validator Results](docs/Jshint-validation.JPG)
 
@@ -179,7 +179,7 @@ Testing was focused to ensure the following criteria were met:
 
 ### Version Control
 
-The site was created using the Visual Studio Code editor and pushed to github to the remote repository ‘Portfolio-Project-2-Poker-Fun’.
+The site was created using the Visual Studio Code editor and pushed to github to the remote repository ‘Rock-Paper-Scissor-Portfolio2’.
 
 The following git commands were used throughout development to push code to the remote repo:
 
