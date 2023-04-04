@@ -2,9 +2,9 @@
 
 Rock Paper Scissor Lizard Spock is a JavaScript game built to allow users to play the online for fun. It was built on an extended version of popualr Rock paper Scissor game what most of us plays in childhood.
 
-![Main page](docs/multi-device.JPG)
+![Mock up](docs/multi-device.JPG)
 
-[Live link](<a href ="https://rupa830904.github.io/Rock-Paper-Scissor-Portfolio2/" target="_blank" rel="link"></a>)
+![Live link](https://rupa830904.github.io/Rock-Paper-Scissor-Portfolio2/)
 
 ## Features
 
@@ -58,6 +58,23 @@ Rock Paper Scissor Lizard Spock is a JavaScript game built to allow users to pla
 
  - Sample Result
  ![Result image](docs/Reset.JPG)
+
+ *Game Rules*
+
+ - There would be 3 results possible for each user choice. WIN/LOSS/DRAW. It will be decided on the below rule
+
+ - A Simple Way to Remember Who Wins
+
+   Scissors cuts paper.
+   Paper covers rock.
+   Rock crushes lizard.
+   Lizard poisons Spock.
+   Spock smashes scissors.
+   Scissors decapitates lizard.
+   Lizard eats paper.
+   Paper disproves Spock.
+   Spock vaporizes rock.
+   Rock crushes scissors.
 
 # Technolgies
 
