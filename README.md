@@ -4,7 +4,7 @@ Rock Paper Scissor Lizard Spock is a JavaScript game built to allow users to pla
 
 ![Mock up](docs/multi-device.JPG)
 
-![Live link](https://rupa830904.github.io/Rock-Paper-Scissor-Portfolio2/)
+[Live link](https://rupa830904.github.io/Rock-Paper-Scissor-Portfolio2/)
 
 ## Features
 
