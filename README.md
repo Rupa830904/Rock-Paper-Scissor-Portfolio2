@@ -45,23 +45,22 @@ Rock Paper Scissor Lizard Spock is a JavaScript game built to allow users to pla
 
 - A user has a choice to click on a reset button to reset the score board and restart the game.
 
- - Reset button
+ 
  ![Reset image](docs/Reset.JPG)
 
  *Rules Button*
 
  - This is a pop-up button. On user click it opens the game instructions and rules. User can click on the 'x' or anywhere outside the pop-up to come back to main page.
 
-  ![Reset image](docs/rules-button.JPG)
+  ![Rules image](docs/rules-button.JPG)
   
- *Result*
 
- - Sample Result
- ![Result image](docs/Reset.JPG)
 
+ *Result* 
+
+ - There would be 3 results possible for each user choice. WIN/LOSS/DRAW. It will be decided on the below rule.
+ 
  *Game Rules*
-
- - There would be 3 results possible for each user choice. WIN/LOSS/DRAW. It will be decided on the below rule
 
  - A Simple Way to Remember Who Wins
 
@@ -75,6 +74,30 @@ Rock Paper Scissor Lizard Spock is a JavaScript game built to allow users to pla
    Paper disproves Spock.
    Spock vaporizes rock.
    Rock crushes scissors.
+
+   *Example Results*
+
+   - For a user choice of rock, comnputer chooses lizard then the user wins.
+   
+   ![Result Image1](docs/UserRockcomplizard.JPG)
+
+   - For a user choice of paper, comnputer chooses scissor then the user looses.
+
+   ![Result Image1](docs/userpapercompscissor.JPG)
+
+   - For a user choice of scissor, comnputer chooses paper then the user wins.
+
+   ![Result Image1](docs/UserScissorcomppaper.JPG)
+
+   - For a user choice of lizard, comnputer chooses spock then the user wins.
+
+   ![Result Image1](docs/Userlizardcomputerspock.JPG)
+
+   - For a user choice of spock, comnputer chooses paper then the user looses.
+
+   ![Result Image1](docs/Userspockcomppaper.JPG)
+
+   - If the user's and computer's choice are same, it's a draw.
 
 # Technolgies
 
