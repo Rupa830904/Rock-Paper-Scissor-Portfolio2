@@ -53,6 +53,12 @@ Rock Paper Scissor Lizard Spock is a JavaScript game built to allow users to pla
  - This is a pop-up button. On user click it opens the game instructions and rules. User can click on the 'x' or anywhere outside the pop-up to come back to main page.
 
   ![Rules image](docs/rules-button.JPG)
+
+  *Pop-up window*
+
+  - User will get the below pop-up window when clicking on the rules button.
+  
+  ![pop-up window](docs/Modal1.JPG)
   
 
 
