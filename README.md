@@ -21,7 +21,7 @@ Rock Paper Scissor Lizard Spock is a JavaScript game built to allow users to pla
 
 - The home page demonstrated a user interactive game with rules and instructions as described below.
 
-![Home Page Image](images/The-Main-page.JPG)  
+![Home Page Image](docs/The-Main-page.JPG)  
 
 
 *ScoreBoard*
@@ -100,7 +100,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
 Steps to test:
 
-1. Open browser and navigate to [Live Link]()
+1. Open browser and navigate to [Live Link](https://rupa830904.github.io/Rock-Paper-Scissor-Portfolio2/)
 2. Open the developer tools (right click and inspect)
 3. Set to responsive and decrease width to 320px
 4. Set the zoom to 50%
