@@ -160,6 +160,10 @@ Testing was focused to ensure the following criteria were met:
 
 ![Home HTML Validator Results](docs/home_validator-portfolio2.JPG)
 
+![404 HTML Validator Results](docs/404-validation.JPG)
+
+
+
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
 
